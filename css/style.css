@@ -52,7 +52,7 @@ p {
 }
 
 .hero-row {
-  min-height: 720px;
+  min-height: 620px;
 }
 
 .hero-content {
@@ -62,9 +62,10 @@ p {
 }
 
 .hero-frame {
-  width: min(520px, 82%);
+  width: min(420px, 75%);
   aspect-ratio: 4 / 5;
   overflow: hidden;
+  transform: translateY(-20px);
   border-radius: 1.25rem;
   box-shadow: 0 18px 45px rgba(98, 55, 29, 0.18);
 }
